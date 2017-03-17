@@ -1,0 +1,48 @@
+body {
+  background: #444;
+  font-family: Open Sans, sans-serif; }
+
+form {
+  position: relative;
+  top: 40px;
+  border-radius: 4px;
+  width: 400px;
+  height: 180px;
+  margin: 0 auto; }
+  form textarea {
+    border-radius: 2px;
+    box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #e2e6e6;
+    margin: 10px 0;
+    font-family: Open Sans, sans-serif;
+    outline: none;
+    width: 395px;
+    height: 100px; }
+  form input[type=submit] {
+    cursor: pointer;
+    box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #a8f1ff;
+    border-radius: 2px;
+    background-color: #0093b0;
+    color: #fff;
+    float: right;
+    padding: 10px; }
+  form span.counter {
+    float: right;
+    color: #000; }
+  form p.info {
+    font-size: 11px;
+    color: #999; }
+    form p.info > span {
+      color: #000; }
+
+div {
+  color: #f00; }
+
+ul {
+  background-color: #ddd; }
+  ul li {
+    background-color: #d1d1d1;
+    font-size: 1em;
+    float: left;
+    padding: 4em; }

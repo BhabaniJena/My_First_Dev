@@ -1,0 +1,51 @@
+
+body {
+	background: $color_tundora_approx;
+	font-family: $font_0, $font_1;
+}
+form {
+	position: relative;
+	top: 40px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 4px;
+	width: 400px;
+	height: 180px;
+	margin: 0 auto;
+	textarea {
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 2px;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 11px 0 $black_30;
+		border: 1px solid $color_mercury_approx;
+		margin: 10px 0;
+		font-family: $font_0, $font_1;
+		outline: none;
+		width: 395px;
+		height: 100px;
+	}
+	input[type=submit] {
+		cursor: pointer;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 2px 11px 0 $black_30;
+		border: 1px solid $color_anakiwa_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 2px;
+		background-color: $color_bondi_blue_approx;
+		color: $white;
+		float: right;
+		padding: 10px;
+	}
+	span.counter {
+		float: right;
+		color: $black;
+	}
+	p.info {
+		font-size: 11px;
+		color: $color_mountain_mist_approx;
+		> span {
+			color: $black;
+		}
+	}
+}
+​ {
+}

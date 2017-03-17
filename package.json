@@ -1,0 +1,23 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "testing for project architecture",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhabaniJena/My_First_Dev.git"
+  },
+  "author": "Bhabani Jena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhabaniJena/My_First_Dev/issues"
+  },
+  "homepage": "https://github.com/BhabaniJena/My_First_Dev#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.2.0"
+
+  }
+}
